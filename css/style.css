@@ -255,7 +255,7 @@ a.w3_agile_vimeo:hover{
 }
 /*-- about--*/
 /*-- agile-about --*/
-.agile-about-grid.agile-about-grid1 h2 {
+.agile-about-grid.agile-about-grid1 h2  {
     margin-bottom: 0.7em;
 }
 .agile-about-grid {
@@ -278,7 +278,7 @@ a.w3_agile_vimeo:hover{
     line-height: 1.8em;
 }
 .agile-about-grid2{
-	background:url(../images/FOCUS_Logo.jpg) center no-repeat;
+	/*background:url(../images/FOCUS_Logo.jpg) center no-repeat;*/
 	min-height:350px;
 }
 .about-info-grids span.head-w3l {
