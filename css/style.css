@@ -378,7 +378,7 @@ p.w3agile {
 /*-- special --*/
 .special {
     padding: 5em 0;
-    background: url(../images/banner2.jpg)no-repeat 0px 0px;
+    background: url(../images/Focus2.jpg)no-repeat 0px 0px;
     background-size: cover;
 	z-index:9;
 }
@@ -390,7 +390,7 @@ p.w3agile {
 }
 .w3ls-special-img {
     padding: 0;
-    background:#000 url(../images/s1.jpg) no-repeat 0px 0px;
+    background:#000 url(../images/Focus2.jpg) no-repeat 0px 0px;
     min-height: 234px;
     background-size: cover;
     text-align: center;
@@ -429,19 +429,19 @@ p.w3agile {
 	text-align: right;
 }
 .wthree-img1{
-       background:#000 url(../images/s2.jpg) no-repeat 0px 0px;
+       
     background-size: cover;	
 }
 .wthree-img2{
-        background:#000 url(../images/s3.jpg) no-repeat 0px 0px;
+        
     background-size: cover;	
 }
 .wthree-img3{
-       background:#000 url(../images/s4.jpg) no-repeat 0px 0px;
+       
     background-size: cover;	
 }
 .wthree-img4{
-       background:#000 url(../images/s5.jpg) no-repeat 0px 0px;
+       
     background-size: cover;	
 }
 .w3ls-special-text h4 {
@@ -489,7 +489,7 @@ p.w3agile.fru {
 
 .stats {
     text-align: center;
-   background: url(../images/banner.jpg) no-repeat 0px 0px;
+   background: url(../images/social_network.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
