@@ -491,6 +491,7 @@ p.w3agile.fru {
     text-align: center;
    background: url(../images/social_network.jpg) no-repeat 0px 0px;
     background-size: cover;
+    min-height: 140px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
