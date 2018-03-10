@@ -277,9 +277,14 @@ a.w3_agile_vimeo:hover{
     font-size: 14px;
     line-height: 1.8em;
 }
+#focus_logo{
+    margin-top: -10%;
+    margin-left: 20%;
+}
 .agile-about-grid2{
 	/*background:url(../images/FOCUS_Logo.jpg) center no-repeat;*/
 	min-height:350px;
+    
 }
 .about-info-grids span.head-w3l {
     color: #0087c9;
