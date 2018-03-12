@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 html, body{
     font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
@@ -278,7 +273,7 @@ a.w3_agile_vimeo:hover{
     line-height: 1.8em;
 }
 #focus_logo{
-    margin-top: -10%;
+    margin-top: 2%;
     
 }
 .agile-about-grid2{
@@ -309,7 +304,7 @@ i.agile-sicon {
     text-transform: capitalize;
 }
 .agile-about p {
-    font-size: 14px;
+    font-size: 18px;
     margin:0;
     color: #777;
     font-weight: 400;
