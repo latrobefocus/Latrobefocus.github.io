@@ -6,6 +6,7 @@ html, body{
 	margin: 0;
 }
 p,ul li,ol li{
+    color :black;
 	margin:0;
 	font-size:14px;
 }
