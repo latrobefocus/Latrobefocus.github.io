@@ -10,9 +10,10 @@
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //custom-theme -->
+<!-- //scroll-Reveal -->
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <!-- Materialize css -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"> -->
 <!-- Google font icon -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
@@ -32,6 +33,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
 </head>
+<script type="text/javascript">
+	var about = document.getElementById('about')
+	window.sr = ScrollReveal();
+	sr.reveal('.w3ls_head', { container: about },{duration: 1500});
+	sr.reveal('.text1',{ container: about } ,{duration: 1500});
+	sr.reveal('.iframe', { container: about },{duration: 1500});
+
+
+</script>
 	
 <body class="parallax">
 <!-- banner -->
@@ -113,6 +123,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!-- //flexSlider -->
 				
 			</div>
+			<!-- Social media icons can use it if needed in future -->
 				<!-- <div class="agile_banner_social">
 					<ul class="agileits_social_list">
 						<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -137,7 +148,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-6 col-sm-6 agile-about-grid agile-about-grid1 ">
 					<h5><span style="color: black">Meet Jesus </span>Make Friends</h5>
 <!-- 					<h4>FOCUS stands for Fellowship of Overseas Christian University Students.</h4>
-				 -->					<p style="color: black" style="font-size:18px">FOCUS aims to help International students at La Trobe University make
+				 -->					<p class="text1" style="color: black" style="font-size:18px">FOCUS aims to help International students at La Trobe University make
 				new friends and find out about Jesus and why he is worth having a
 				friendship with.<span style="font-weight: bold;">Each Friday we meet at 5pm in the HU3 building Level 4 to have an International meal together, sing songs, study the Bible, attend workshops and pray together.</span> You
 				don&#39;t have to be a Christian to come along. We welcome anyone who is
@@ -147,7 +158,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 
 				<div class="col-md-6 col-sm-6 agile-about-grid agile-about-grid2 ">
-					<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FLaTrobeFOCUS%2Fvideos%2F152336355430818%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" id="focus_logo" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+					<iframe class="iframe" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FLaTrobeFOCUS%2Fvideos%2F152336355430818%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" id="focus_logo" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -313,7 +324,7 @@ Is there really more than 'NOW'? What does the future hold?<br>
 Come along and explore</p></li>
             
         </ul>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSfQ6sLcD4x21-a9e2MiftclvBzrqI4CGMPRBG6O5yjifuXpuA/viewform?c=0&w=1" target="_blank" class="btn btn-primary">Register NOW!</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSfQ6sLcD4x21-a9e2MiftclvBzrqI4CGMPRBG6O5yjifuXpuA/viewform?c=0&w=1" target="_blank" class="btn btn-primary waves-effect waves-light">Register NOW!</a>
     </div>
     </div>
 	</div>
