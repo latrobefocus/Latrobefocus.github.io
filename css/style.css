@@ -6,6 +6,20 @@ html, body{
 	background:#ffffff;
 	margin: 0;
 }
+    
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
 p,ul li,ol li{
     color :black;
 	margin:0;
