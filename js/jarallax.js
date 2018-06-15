@@ -99,7 +99,7 @@
             _this.$item      = $(item);
 
             _this.defaults   = {
-                speed             : 11.5,
+                speed             : 1.5,
                 imgSrc            : null,
                 imgWidth          : null,
                 imgHeight         : null,

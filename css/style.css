@@ -71,10 +71,14 @@ a:focus{
     background-position: 50% 50%;
     max-width: 100%;
 }
+.img-fluid{
+	width: 100%;
+	height: 100% !important;
+	min-height: 363px;
+}
 .banner {
     background: url(../images/FOCUS_cover.jpg) no-repeat 0px 0px;
     background-size:cover;
-
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
